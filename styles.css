@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f3fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #000;
+    margin-bottom: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.message:nth-child(2n) {
+    margin-bottom: 40px;
+}
+.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark {
+    background-color: #1b1b30;
+    color: #fff;
+}
+
+.checkmark {
+    color: green;
+    font-size: 18px;
+    margin-right: 5px;
+}
